@@ -1,4 +1,4 @@
-# **SEI-Project-03::hamburger: BurgerRator :t_rex: **
+# **SEI-Project-03: :hamburger: BurgerRator 🦖 **
 
 A MERN stack App to find and rate the best burgers.
 
