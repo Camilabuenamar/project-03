@@ -1,4 +1,4 @@
-# **SEI-Project-03: :hamburger: BurgerRator 🦖 **
+# **SEI-Project-03: 🍔 BurgerRator 🦖 **
 
 A MERN stack App to find and rate the best burgers.
 
@@ -24,7 +24,7 @@ A MERN stack App to find and rate the best burgers.
 - React (React-DOM, React-Router-DOM, React-Toastify)
 - Node.js
 - Webpack (with CLI)
-- Git around GitHub
+- Git and GitHub
 - Babel
 - Lodashs
 - Axios
