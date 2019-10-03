@@ -1,6 +1,6 @@
 # **SEI-Project-03: 🍔 BurgerRator** 🦖
 
-A MERN stack App to find and rate the best burgers.
+### A MERN stack App to find and rate the best burgers.
 
 **Timeframe**: One week project with [Ania Kubów](http://https://github.com/kubowania), [Chris Beaney](http://https://github.com/ChrisBeaney) and [Zeeshan Goburdhun](https://github.com/goburdhunz).
 
@@ -85,9 +85,8 @@ A MERN stack App to find and rate the best burgers.
         if(!this.comments) return 0
         return this.comments.length
       })
-    ```     
-
-  ```javascript
+   ```     
+   ```javascript
       <div className="media-content">
         <div className="content">
           <p>
@@ -111,7 +110,7 @@ A MERN stack App to find and rate the best burgers.
       {Auth.isCurrentUser(user) && <div className="media-right">
         <button id={_id} onClick={handledelete} className="delete"></button>
       </div>}
-    ```    
+   ```    
   - External Beer API: We wanted to interact with an external API that could match with our app purpose. For this reason we decided to work with punk Api by making a request of a beer in every hamburger showpage, by just clicking the "beer match" button a modal with appear with the principal information of the beer.
   ```javascript
       componentDidMount() {
