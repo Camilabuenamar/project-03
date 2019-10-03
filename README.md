@@ -38,7 +38,7 @@ A MERN stack App to find and rate the best burgers.
 - **Deciding the topic:** Through brainstorming and whiteboard we decided to make an APP based on the best hamburgers  of London.
 - **Division of the work:** In order to achieve the ambitious app we had on mind it was very important to divide tasks and the different parts of it. Personally, I was more involved inthe front-end of the App, working in the Home, Index, Show and About pages. I focused in the cards and filters, making them visually attractive, and easy to use. Also I designed the logo of the App. At the same time all of us created hamburgers in our "free time" so we could have a big seed dsta base.
 - **Some Snippets:** 
-  - Home Page :We started with the Home Page. For this it was neccesary only to show the highest 3 rated hamburgers. In the back-end it looked like this:
+  - Home Page: We started with the Home Page. For this it was neccesary only to show the highest 3 rated hamburgers. In the back-end it looked like this:
     ```javascript
     function homeRoute (req, res, next) {
       Burger.find()
@@ -49,7 +49,7 @@ A MERN stack App to find and rate the best burgers.
     }
     ```   
   - Login: For the login we agreed we didn't want to create a full page for the form. For this reason we learned how to create modals.
-    ```javascript
+       ```javascript
        <section className="section login-portal">
         {!Auth.isAuthenticated() && <button className="button is-primary is-danger loginbutton" onClick={this.openModal}>Login</button>}
         <Modal
@@ -61,9 +61,9 @@ A MERN stack App to find and rate the best burgers.
           shouldCloseOnEsc={true}
           shouldCloseOnOverlayClick={true}
         >
-  ```    
+        ```   
   - Index Page: Applying filters to all burgers for the user to browse was a challenge. Mostly because of the ingredient filter that had to match identical strings in two arrays and the boolean search for the vegetarian (which included vegans) and the vegans, since the default of the search was to include all hamburgers containing the vegetarians and vegans.
-  ```javascript
+ ```javascript
     const filterBurgers = _.filter(this.state.burgers, burger => {
       return (ingredients.length ? _.intersection(burger.ingredients, ingredients).length >= ingredients.length : true) &&
         (re.test(burger.name) || re.test(burger.restaurant.name)) && (reIng.test(burger.ingredients))  &&
@@ -71,7 +71,7 @@ A MERN stack App to find and rate the best burgers.
         (isVegetarian && burger.isVegetarian) ||
         (!isVegan && !isVegetarian))
     })
-    ```     
+  ```     
   - Show Page: In the show page we wanted to let the authenticated users to interact with the page. Two examples of this where the rating and the comments given to each hamburger.
   ```javascript
     burgerSchema.virtual('avgUserRating')
