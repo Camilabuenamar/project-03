@@ -1,4 +1,4 @@
-# **SEI-Project-03: 🍔 BurgerRator 🦖 **
+# **SEI-Project-03: 🍔 BurgerRator** 🦖
 
 A MERN stack App to find and rate the best burgers.
 
@@ -37,7 +37,7 @@ A MERN stack App to find and rate the best burgers.
 ## Approach Taken:
 - **Deciding the topic:** Through brainstorming and whiteboard we decided to make an APP based on the best hamburgers  of London.
 - **Division of the work:** In order to achieve the ambitious app we had on mind it was very important to divide tasks and the different parts of it. Personally, I was more involved inthe front-end of the App, working in the Home, Index, Show and About pages. I focused in the cards and filters, making them visually attractive, and easy to use. Also I designed the logo of the App. At the same time all of us created hamburgers in our "free time" so we could have a big seed dsta base.
-- ** Some Snippets:** 
+- **Some Snippets:** 
   - Home Page :We started with the Home Page. For this it was neccesary only to show the highest 3 rated hamburgers. In the back-end it looked like this:
     ```javascript
     function homeRoute (req, res, next) {
